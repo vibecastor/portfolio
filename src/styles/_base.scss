@@ -4,15 +4,15 @@
 
 body {
   background-color: $background-color;
+  background: linear-gradient(to bottom right, #2F4454, #376E6F);
   font-family: 'Roboto', sans-serif;
   color: $font-color;
+  height: 100%;
+  margin: 0;
+  padding: 0;
   // text-align: center;
 }
 
-//h1 {
-//  border-color: blue;
-//  border-style: dashed;
-//  width: 50%;
-//  text-align: left;
-//  padding-left: .5em;
-//}
+html {
+  height: 100%;
+}
