@@ -1,5 +1,5 @@
 .active {
-  font-color: #0099FF;
+  color: #0099FF;
 }
 
 .nav {
@@ -12,10 +12,10 @@
     display: inline;
     margin: .5em;
     padding: .5em;
+    color: #ffffff;
   }
 }
 
-img {
-  display: block;
-  float: right;
+a {
+  color: #ffffff;
 }

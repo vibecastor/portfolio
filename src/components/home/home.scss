@@ -1,10 +1,13 @@
 .home {
-  border-style: dashed;
-  h1 {
-    display: block;
+  //border-style: dashed;
+  //border-color: #DA7B93;
 
+  h1 {
+    display: inline-block;
+    margin-left: .5em;
   }
   img {
     display: block;
+    float: right;
   }
 }
