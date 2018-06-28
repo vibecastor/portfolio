@@ -1,0 +1,21 @@
+.active {
+  color: #0099FF;
+}
+
+.nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  list-style-type: none;
+
+  li {
+    display: inline;
+    margin: .5em;
+    padding: .5em;
+    color: #ffffff;
+  }
+}
+
+a {
+  color: #ffffff;
+}
