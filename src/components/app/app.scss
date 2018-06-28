@@ -1,0 +1,21 @@
+.active {
+  font-color: #0099FF;
+}
+
+.nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  list-style-type: none;
+
+  li {
+    display: inline;
+    margin: .5em;
+    padding: .5em;
+  }
+}
+
+img {
+  display: block;
+  float: right;
+}

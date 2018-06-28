@@ -1,10 +1,18 @@
 @import 'vars';
 
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
-  background-color: lightgrey;
-  font-family: sans-serif;
+  background-color: $background-color;
+  font-family: 'Roboto', sans-serif;
   color: $font-color;
   // text-align: center;
+}
+
+h1 {
+  border-color: blue;
+  border-style: dashed;
+  width: 50%;
+  text-align: left;
+  padding-left: .5em;
 }
