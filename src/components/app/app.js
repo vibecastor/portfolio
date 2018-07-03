@@ -8,11 +8,12 @@ import Projects from '../projects/projects';
 import Contact from '../contact/contact';
 
 import './app.scss';
+import Footer from '../footer/footer.js';
 
 export default class App extends React.Component {
   render() {
     return (
-      <div>
+      <div className='container'>
         <Header/>
         <BrowserRouter>
         <div className='router'>
@@ -28,6 +29,7 @@ export default class App extends React.Component {
           <Route exact path='/contact' component={Contact}/>
           </div>
         </BrowserRouter>
+      <Footer/>
       </div>
     );
   }
