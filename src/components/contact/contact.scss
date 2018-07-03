@@ -1,14 +1,14 @@
 .contact {
-  margin-left: 1em;
   list-style-type: none;
+  text-align: center;
+  border-style: solid;
+  border-color: #ffffff;
+  padding: 5em;
+  display: block;
+}
 
-  li {
-    display: inline;
-    margin: .5em;
-    padding: .5em;
-    color: #ffffff;
-    background-color: #2F4454;
-  }
+h2 {
+  padding-bottom: 2em;
 }
 
 .email {
@@ -16,5 +16,6 @@
   color: white;
   display: inline;
   padding: .5em;
+  margin-top: 5em;
   border-style: solid;
 }
