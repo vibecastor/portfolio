@@ -6,10 +6,9 @@ export default class About extends React.Component {
   render() {
     return (
       <div className='about'>
-        <img src={Profile} alt="profile pic" height="20%" width="20%"></img>
-      <h1>About</h1>
+      <h1>Software Developer</h1>
         <p>I’m a Seattle based full-stack JavaScript developer with a passion for building elegant, bespoke, interactive applications.
-          I have experience in all areas of the stack but I lean towards front-end.  I'm creative, passionate about build beautiful yet functional websites.</p>
+          I have experience in all areas of the stack from building and designing responsive front-ends to building RESTful API's.  I'm at home on any project that requires a creative, organized developer with excellent communication skills.</p>
         <ul>
           <li>Javascript</li>
           <li>HTML5</li>
@@ -25,6 +24,7 @@ export default class About extends React.Component {
           <li>Wireframes</li>
           <li></li>
         </ul>
+        <img src={Profile} alt="profile pic" height="20%" width="20%"></img>
       </div>
     );
   }

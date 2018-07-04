@@ -14,7 +14,7 @@ export default class Projects extends React.Component {
         <div className='project-container'>
           <ul>
             <li className='card'>
-              <h2>EventUs</h2>
+              <h1>EventUs</h1>
               <a href='http://eventus.site'>
                 <img src={EventUs} alt='eventus.site' height='80%' width='80%'></img>
               </a>
@@ -23,14 +23,14 @@ export default class Projects extends React.Component {
                 This application was built for a social running club called Hash House Harriers.  The application is built using the MERN Stack (MongoDB, Express, React/Redux and Node).</p>
             </li>
             <li className='card'>
-              <h2>Phrasecraze</h2>
+              <h1>Phrasecraze</h1>
               <a href='https://github.com/spinaltaper/phrasecraze'>
               <img src={Phrasecraze} alt='phrasecraze.website' height='80%' width='80%'></img>
               </a>
               <p>PhaseCraze is a word game REST API that consists of both a TCP server and HTTP server.  The TCP server is hosted on a Digital Ocean Droplet and the HTTP server is hosted on Heroku.  This project only runs on the command line.  Phrasecraze was built with Node.js, Express and MongoDB.</p>
             </li>
             <li className='card'>
-              <h2>Plenty of Dogs</h2>
+              <h1>Plenty of Dogs</h1>
               <a href='http://plenty-of-dogs.site'>
                 <img src={PlentyOfDogs} alt='plenty-of-dogs.site' height='80%' width='80%'></img>
               </a>

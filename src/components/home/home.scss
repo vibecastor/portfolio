@@ -8,10 +8,8 @@
     color: #323433;
   }
   img {
-    display: block;
-    float: right;
-    border-radius: 10px;
-    margin-right: 1em;
+    text-align: center;
+    border-radius: 50%;
   }
 }
 
@@ -29,3 +27,18 @@
 //    background-color: #2F4454;
 //  }
 //}
+
+.about {
+  background-color: #89bcc2;
+  display: block;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  border-radius: 1%;
+
+  li {
+    list-style-type: none;
+  }
+
+
+}
