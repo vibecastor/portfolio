@@ -1,0 +1,26 @@
+.footer {
+  width: 100%;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+  h4 {
+    margin: 2em;
+  }
+}
+
+.social {
+  margin-left: 1em;
+  list-style-type: none;
+
+  li {
+    display: inline;
+    margin: .5em;
+    padding: 1em;
+    color: #ffffff;
+    background-color: #7d8e9b;
+    font-size: 1.2em;
+    border-radius: 50%;
+  }
+
+}

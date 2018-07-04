@@ -1,11 +1,14 @@
+.container {
+  display: block;
+  height: 100%;
+}
+
 .active {
-  color: #0099FF;
+  color: #323433;
 }
 
 .nav {
-  position: absolute;
-  top: 0;
-  right: 0;
+  text-align: center;
   list-style-type: none;
 
   li {
@@ -19,3 +22,4 @@
 a {
   color: #ffffff;
 }
+

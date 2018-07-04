@@ -1,3 +1,19 @@
 .contact {
-  margin-left: 1em;
+  list-style-type: none;
+  text-align: center;
+  padding: 5em;
+  display: block;
+
+  h2 {
+    padding-bottom: 2.5em;
+  }
+}
+
+.email {
+  background-color: #2F4454;
+  color: white;
+  display: inline;
+  padding: .75em;
+  margin-top: 5em;
+  border-style: solid;
 }

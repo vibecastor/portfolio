@@ -1,13 +1,44 @@
 .home {
   //border-style: dashed;
   //border-color: #DA7B93;
+  height: 100%;
 
   h1 {
-    display: inline-block;
-    margin-left: .5em;
+    text-align: center;
+    color: #323433;
   }
   img {
-    display: block;
-    float: right;
+    text-align: center;
+    border-radius: 50%;
   }
+}
+
+//.social {
+//  display: inline;
+//  margin-left: 1em;
+//  list-style-type: none;
+//  float: right;
+//
+//  li {
+//    display: inline;
+//    margin: .5em;
+//    padding: .5em;
+//    color: #ffffff;
+//    background-color: #2F4454;
+//  }
+//}
+
+.about {
+  background-color: #89bcc2;
+  display: block;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  border-radius: 1%;
+
+  li {
+    list-style-type: none;
+  }
+
+
 }
