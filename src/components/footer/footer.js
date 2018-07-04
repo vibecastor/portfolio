@@ -12,6 +12,7 @@ export default class Footer extends React.Component {
             <li><a href='https://www.linkedin.com/in/mikecastor'><i className="icon-linkedin"></i></a></li>
             <li><a href='https://github.com/vibecastor'><i className="icon-github"></i></a></li>
           </ul>
+          <h4><a href='mailto:vibecastor@gmail.com'>vibecastor@gmail.com</a></h4>
         </footer>
       </div>
     );

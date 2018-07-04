@@ -41,3 +41,13 @@ li {
 img {
   border-radius: 1%;
 }
+
+@media only screen and (max-width: 600px) {
+  .project-container {
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+  }
+}

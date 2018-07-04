@@ -1,13 +1,12 @@
 @import 'vars';
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
-
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
 body {
   background-color: $background-color;
   //background: linear-gradient(to bottom right, #2F4454, #376E6F);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-size: 100%;
   color: $font-color;
   margin: 0;
   padding: 0;
@@ -15,6 +14,26 @@ body {
   // text-align: center;
 }
 
+h1 {
+  font-size: 2em;
+  /* 2x body copy size = 32px */
+  line-height: 1.25;
+  /* 45px / 36px */
+}
+
+h2 {
+  font-size: 1.625em;
+  /* 1.625x body copy size = 26px */
+  line-height: 1.15384615;
+  /* 30px / 26px */
+}
+
+h3 {
+  font-size: 1.375em;
+  /* 1.375x body copy size = 22px */
+  line-height: 1.13636364;
+  /* 25px / 22px */
+}
 
 /*icomoon font styles*/
 @font-face {
@@ -67,4 +86,15 @@ body {
 }
 .icon-github:before {
   content: "\eab0";
+}
+
+@media only screen and (max-width: 600px){
+  body {
+
+    h1 {
+      font-size: 2em;
+      /* 2.5x body copy size = 40px */
+      line-height: 1.125;
+    }
+  }
 }
