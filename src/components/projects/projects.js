@@ -34,7 +34,7 @@ export default class Projects extends React.Component {
               <a href='http://plenty-of-dogs.site'>
                 <img src={PlentyOfDogs} alt='plenty-of-dogs.site' height='80%' width='80%'></img>
               </a>
-              <p>Plenty of Dogs is a client side application where a user can take a quiz to discover their preferred dog for adoption.  The quiz utilizes data from an API request to dog.ceo which is a public API is dig images.  The application then takes the results of the users quiz and makes a call to the Petfinder API which contains data on dogs that are currently available for adoption.  Plenty of Dogs was built with vanilla ES5 javascript, jQuery, Express and PostgreSQL.</p>
+              <p>Plenty of Dogs is a client side application where a user can take a quiz to discover their preferred dog for adoption.  The quiz utilizes data from an API request to dog.ceo which is a public API of dog images.  The application then takes the results of the users quiz and makes a call to the Petfinder API which contains data on dogs that are currently available for adoption.  Plenty of Dogs was built with vanilla ES5 javascript, jQuery, Express and PostgreSQL.</p>
             </li>
           </ul>
         </div>
